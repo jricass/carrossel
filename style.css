@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    height: 100vh;
+}
+
+.carousel-item {
+
+    background: #f0f0fa;
+
+}
+
+img {
+    border-radius: 50%;
+    margin-left: calc(25vw - 68px);
+    margin-top: 50px;
+    height: 140px;
+    transition: ease-in-out 0.2s;
+}
+
+.carousel-caption {
+    margin-left: 16vw;
+    text-align: left;
+    margin-bottom: -1vh;
+}
+
+img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.carousel-item {
+
+    height: 300px
+
+}
+
+h3 {
+    color: #000000;
+    display: flex;
+    left: 0;
+    width: 200px;
+    color: 353535;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    display: flex;
+    font-size: 160%;
+    height: 34px;
+    font-weight: 700;
+    background: linear-gradient(to right, #ff3281, #cfc203f1,#c2af04, #ceba05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ponto {
+    color: rgb(253, 0, 190);
+}
+
+p {
+    color: #000000;
+    display: flex;
+    left: 0;
+    font-weight: 500;
+    font-size: large;
+    width: 700px;
+}
+
+.carousel-control-next-icon {
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.carousel-control-prev-icon {
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.carousel-control-prev {
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    border-radius: 50%;
+    margin-left: 100px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next {
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    border-radius: 50%;
+    margin-right: 100px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+svg {
+    stroke: rgb(255, 153, 0);
+}
